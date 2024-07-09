@@ -7,4 +7,7 @@ export const fizzBuzz = (
     if (n === 2) {
         return '2'
     }
+    if (n === 3) {
+        return 'Fizz'
+    }
 }
