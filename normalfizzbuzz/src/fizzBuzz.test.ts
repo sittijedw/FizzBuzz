@@ -41,11 +41,19 @@ describe('FizzBuzz', () => {
         expect(result).toEqual('Buzz')
     })
 
-    it('n = 6 should return 6', () => {
+    it('n = 6 should return Fizz', () => {
         const n: number = 6
 
         const result: string = fizzBuzz(n)
 
-        expect(result).toEqual('6')
+        expect(result).toEqual('Fizz')
+    })
+
+    it('n = 7 should return 7', () => {
+        const n: number = 7
+
+        const result: string = fizzBuzz(n)
+
+        expect(result).toEqual('7')
     })
 })
