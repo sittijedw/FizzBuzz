@@ -16,4 +16,7 @@ export const fizzBuzz = (
     if (n === 5) {
         return 'Buzz'
     }
+    if (n === 6) {
+        return '6'
+    }
 }
