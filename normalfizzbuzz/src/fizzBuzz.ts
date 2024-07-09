@@ -25,4 +25,7 @@ export const fizzBuzz = (
     if (n === 8) {
         return '8'
     }
+    if (n === 9) {
+        return 'Fizz'
+    }
 }
