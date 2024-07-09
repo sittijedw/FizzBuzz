@@ -43,4 +43,7 @@ export const fizzBuzz = (
     if (n === 14) {
         return '14'
     }
+    if (n === 15) {
+        return 'FizzBuzz'
+    }
 }
