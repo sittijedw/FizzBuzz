@@ -1,3 +1,7 @@
 export const fizzBuzz = (n: number): string => {
-    return n.toString()
+    if (n === 3) {
+        return 'Fizz'
+    } else {
+        return n.toString()
+    }
 }
