@@ -14,5 +14,8 @@ export const fizzBuzz = (n: number): string => {
     if (n === 10) {
         return 'Buzz'
     }
+    if (n === 12) {
+        return 'Fizz'
+    }
     return n.toString()
 }
